@@ -6,18 +6,21 @@
   "scripts": {
     "start": "NODE_ENV=production node index.js",
     "start:dev": "NODE_ENV=development nodemon index.js",
-    "lint": "eslint .",
+    "lint": "npx eslint .",
     "test": "NODE_ENV=test jest --verbose --runInBand"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongoose": "^5.12.14"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14",
+    "mongoose-unique-validator": "^2.0.3"
   },
   "devDependencies": {
     "eslint": "^7.29.0",

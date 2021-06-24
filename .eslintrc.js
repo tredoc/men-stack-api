@@ -1,11 +1,11 @@
 module.exports = {
     "env": {
-        "browser": true,
+        "browser": false,
         "commonjs": true,
         "es2021": true
     },
     "parserOptions": {
-        "ecmaVersion": 12
+        "ecmaVersion": 6
     },
     "rules": {
     }
